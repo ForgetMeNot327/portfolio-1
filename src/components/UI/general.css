@@ -1,0 +1,16 @@
+.left-to-right {
+  animation: leftToRight 1s ease;
+  /* animation-play-state: paused; */
+  /* color: red; */
+}
+
+@keyframes leftToRight {
+  from {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
