@@ -10,12 +10,9 @@ import {
   Flex,
   Center,
 } from "@chakra-ui/react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRunning } from "@fortawesome/free-solid-svg-icons";
 import profileImage from "../../assets/foto-profil.jpg";
 import { education, skills } from "../store/data";
 import Authcontext from "../store/Authcontext";
-import MyHeading from "../UI/MyHeading";
 
 import "./../UI/general.css";
 import classes from "./About.module.css";
