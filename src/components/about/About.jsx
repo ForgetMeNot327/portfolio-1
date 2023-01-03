@@ -28,9 +28,9 @@ function About() {
 
   useEffect(() => {
     setAboutHeight(aboutRef.current.offsetHeight);
-    window.addEventListener("scroll", () => {
-      console.log(window.scrollY);
-    });
+    // window.addEventListener("scroll", () => {
+    //   console.log(window.scrollY);
+    // });
   }, []);
 
   return (
