@@ -88,20 +88,20 @@ function Navbar({ ref, isOffside }) {
           HOME
         </Link>
         <Link
-          onClick={() => scrollHandler(610)}
+          onClick={() => scrollHandler(homeHeight)}
           style={{ textDecoration: "none" }}
         >
           ABOUT
         </Link>
         <Link
-          onClick={() => scrollHandler(1560)}
+          onClick={() => scrollHandler(1630)}
           // onClick={() => scrollHandler(aboutHeight)}
           style={{ textDecoration: "none" }}
         >
           PORTFOLIO
         </Link>
         <Link
-          onClick={() => scrollHandler(2370)}
+          onClick={() => scrollHandler(2440)}
           style={{ textDecoration: "none" }}
         >
           CONTACT

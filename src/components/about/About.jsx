@@ -10,7 +10,7 @@ import {
   Flex,
   Center,
 } from "@chakra-ui/react";
-import profileImage from "../../assets/foto-profil.jpg";
+import profileImage from "../../assets/me.png";
 import { education, skills } from "../store/data";
 import Authcontext from "../store/Authcontext";
 
@@ -177,14 +177,18 @@ function About() {
           )}
         >
           <Center>
-            <Box h="200px" w="250px" pos="relative">
+            <Box
+              h="250px"
+              w="250px"
+              pos="relative"
+              clipPath="polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%)"
+            >
               <Image
-                clipPath="polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%)"
                 src={profileImage}
-                // boxSize="200px"
+                // boxSize="80%"
                 objectFit="cover"
                 w="full"
-                h="full"
+                // h="full"
               />
             </Box>
           </Center>
