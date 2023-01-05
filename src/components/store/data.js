@@ -42,6 +42,10 @@ export const skills = [
     score: "60%",
   },
   {
+    title: "Git",
+    score: "65%",
+  },
+  {
     title: "UI Design",
     score: "50%",
   },
